@@ -41,7 +41,7 @@ const AddProduct = () => {
         formData.append('productName', productName);
         formData.append('price', price);
         formData.append('description', description);
-        formData.append('image',image);
+        formData.append('image',image)
         category.forEach((value)=>{
           formData.append('category', value)
         });

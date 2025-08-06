@@ -47,7 +47,7 @@ const AddFirm = () => {
         formData.append('firmName', firmName);
         formData.append('area', area);
         formData.append('offer', offer);
-        formData.append('image',file);
+        formData.append('image',file)
         category.forEach((value)=>{
           formData.append('category', value)
         });
@@ -141,7 +141,7 @@ const AddFirm = () => {
           </div>
         </div>
         <label>Firm Image</label>
-        <input type="file" name="image" onChange={handleImageUpload} />
+        <input type="file"  onChange={handleImageUpload} />
       <div className="btnSubmit">
         <button type='submit'>Submit</button>
         </div>
