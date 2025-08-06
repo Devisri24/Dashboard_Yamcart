@@ -141,7 +141,7 @@ const AddFirm = () => {
           </div>
         </div>
         <label>Firm Image</label>
-        <input type="file"  onChange={handleImageUpload} />
+        <input type="file" name='image' onChange={handleImageUpload} />
       <div className="btnSubmit">
         <button type='submit'>Submit</button>
         </div>

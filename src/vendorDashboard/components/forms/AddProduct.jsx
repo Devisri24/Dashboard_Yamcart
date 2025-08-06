@@ -103,8 +103,8 @@ const AddProduct = () => {
         </div>
         <label>Description</label>
         <input type="text" value={description} onChange={(e) => setDescription(e.target.value)}/>
-        <label>Firm Image</label>
-        <input type="file" onChange={handleImageUpload} />
+        <label>Product Image</label>
+        <input type="file" name='image' onChange={handleImageUpload} />
       <div className="btnSubmit">
         <button type='submit'>Submit</button>
         </div>
