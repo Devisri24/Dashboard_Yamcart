@@ -209,3 +209,20 @@ h3 {
 .errorSection h1 {
     font-size: 4rem;
 }
+
+ .welcomeSection h2 {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: #2073c0;
+}
+
+.landingImage {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    margin-top: -0px;
+    margin-left: 150px;
+}
